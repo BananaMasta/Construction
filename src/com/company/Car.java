@@ -1,40 +1,32 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Car {
-    private int topSpeed;
-    private int price;
-    private String carName;
-    private String color;
 
-    public int getTopSpeed() {
-        return topSpeed;
+    private String model;
+
+//    public Car(String model) {
+//        this.model = model;
+//    }
+
+    public String getModel() {
+        return model;
     }
 
-    public void setTopSpeed(int topSpeed) {
-        this.topSpeed = topSpeed;
+    public void setModel(String model) {
+        this.model = model;
     }
+//
+//    List<Wheel> wheels = new ArrayList<>();
+//
+//    public List<Wheel> getWheels() {
+//        return wheels;
+//    }
+//
+//    public void setWheels(List<Wheel> wheels) {
+//        this.wheels = wheels;
+//    }
 
-    public int getPrice() {
-        return price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
-    public String getCarName() {
-        return carName;
-    }
-
-    public void setCarName(String carName) {
-        this.carName = carName;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
 }
